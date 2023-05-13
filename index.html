@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo em outro container</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="align-center">Mova os elementos entre os containers</h1>
+            <h4 class="align-center">Selecione um ou mais elementos e clique nos botões "Incluir" ou "Remover".</h4>
+            <div class="marcarTudo">
+                <input type="checkbox" name="itensContainer" id="itensContainer" unchecked>
+                <label for="itensContainer">Selecionar todos</label>
+            </div>
+        </header>
+        <div id="conteudo">
+            <section id="container1">
+                
+                <p id="js" class="item"><i class="fa-brands fa-square-js"></i> Javascript</p>
+                <p id="html" class="item"><i class="fa-brands fa-html5"></i> HTML</p>
+                <p id="css" class="item"><i class="fa-brands fa-css3-alt"></i> CSS</p>
+                <p id="ps" class="item"><i class="fa-solid fa-palette"></i> Photoshop</p>
+            </section>
+            <div id="botoes">
+                <button id="btnIncluir">Incluir <i class="fa-solid fa-arrow-right"></i></button>
+                <button id="btnRemover"><i class="fa-solid fa-trash"></i> Remover</button>
+            </div>
+            <section id="container2">
+                
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/script2.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/dad3f7dcfb.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
